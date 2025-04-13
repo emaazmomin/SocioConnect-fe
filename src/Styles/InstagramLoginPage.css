@@ -1,0 +1,51 @@
+ .page-hw{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, #f9f9f9, #eaeaea);
+ }
+.rectangle-hw{
+    max-width: 400px;
+    margin: auto;
+}
+
+.subheading {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Instagram button styles */
+.instagram-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.instagram-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Icon styles */
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 480px) {
+    .rectangle-hw{
+        margin: 0px 10px;
+    }
+}
