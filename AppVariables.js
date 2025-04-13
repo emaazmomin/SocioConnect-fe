@@ -1,3 +1,4 @@
 export const vars = {
-  server: "http://localhost:5000",
+  server: "https://socio-connect-be.vercel.app",
+//   server: "http://localhost:5000",
 };
